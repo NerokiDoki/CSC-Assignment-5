@@ -1,0 +1,84 @@
+<!--
+12/16/2023
+by
+Cody Brennan
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javagame.js"></script> <!--Linking the HTML with the JS-->
+    <link rel="stylesheet" href="CSSgame.css">
+    <title>Game</title>
+</head>
+<body>
+    <H1><!--H1 makes it bigger than the other H's-->
+        Assignment 2.1!
+    </H1>
+
+    <p><!--Paragraph text-->
+        WELCOME TO BAHA BLAST CRAPS!
+    </p>
+    <p>
+        WANNA TEST YOUR LUCK?!~
+    </p>
+    <br> <br> <br> <br> 
+    <h2>
+         Rules! 
+    </h2>
+    <ul> <!--creates a bulletin list!-->
+        <li>Win by rolling 7 or 11 total!</li>
+        <li>Lose if you roll 2, 3, or 12 total!</li>
+        <li>Keep rolling till you lose or win!</li>
+    </ul>
+
+    <img src="noragami-yato (1).gif" style="height:300px;width:500px"/> <!--Added an image for flare, chagned the height and width of it to make it fit better!-->
+
+
+    <div id="rand1">Dice 1</div> <!--Where dice rolls go!-->
+    <div id="rand2">Dice 2</div>
+    <div id="result">Feeling Lucky?~</div><!--If you win or lose will go here!-->
+<br> <br> 
+    <div class="Buttoncenter"> <!--made a div class inorder to moe the button to center since text-align wouldn't work-->
+    <button onclick = "PlayGame()"> Roll Dice!~ </button><!--Linking the button to Javascript-->
+    </div>
+
+
+    <table id="dataGame", border="4" width = "50"> <!--Made a table-->
+    
+        <tr>
+            <th>Odds of rolling a 7</th>
+            <th>Odds of rolling an 11</th>
+            <th>Winning</th>
+          </tr>
+    
+          <tr>
+            <td>Dice Combo 1,6. 2,5. 3,4. </td>
+            <td>Dice Combo 5,6</td>
+            <td>Dice Combo 5,6. 1,6. 2,5. 3,4. </td>
+          </tr>
+    
+          <tr>
+            <td>16.66%</td>
+            <td>5.56%</td>
+            <td>22.22%</td>
+          </tr>
+    
+    
+    
+    
+    </table>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<!--Used to break up text or the webpage to expand it-->
+<nav> <!--created Nav points for each page-->
+    <a href = "../CSC102 Week 1/Index.html"> Index!</a>
+    <a href = "../CSC102 Week 1/Boards.html"> Boards!</a>
+    <a href="../Landing Page.html"> Landing Page!</a>
+    <a href="../CSC2102 Week 3/UserInput.html"> User Input!</a>
+    <a href="../CSC2102 Week 3/strings1.html"> Palindrome Checker!</a>
+    <a href="../CSC102  week 4/Event_Driven_Programming.html"> Event Driven Programing!</a>
+</nav>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body
+{
+    /* Changing background color*/
+    
+    background-image: radial-gradient(rgb(14, 189, 189),rgb(35, 35, 35));
+    background-repeat: no-repeat;
+}
+
+h1/*changing the color of h1*/
+{
+color: cornflowerblue;
+}
+
+
+p /*Changing the alignment of the p text, the color, the font size, style and weight!*/
+{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: greenyellow
+    
+    
+
+}
+
+h2 /*Changed the color, fontstyle and weight*/
+{
+    color: cornflowerblue;
+    font-style: italic;
+    font-weight: bold;
+    font-size:x-large;
+    
+}
+
+ul /*Changed the color, fontstyle and weight*/
+{
+    color: cornflowerblue;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+div /*Changed the color, fontstyle, alignment and weight*/
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color:black
+    
+}
+
+button /*Changed the color, fontstyle, border width, background color, border color and weight*/
+{
+    font-size: x-large;
+    font-weight: bold;
+    border-width: 13px;
+    background-color: violet;
+    border-color: indigo;
+}
+
+img /*I used this to center it by setting left and right margin to auto to make a block element, since i couldn't get align to work well */
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+table /* customizing the color and background color of the table*/
+{
+    background-color:black;
+    color: cornflowerblue;
+}
+
+nav /*changing the color of the nav menu and the position*/
+{
+    background-color: rgb(69, 98, 26);
+    color: aqua;
+    background-position: 500px;
+}

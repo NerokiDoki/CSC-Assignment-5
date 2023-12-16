@@ -1,0 +1,46 @@
+
+
+h1/*changing the color of h1*/
+{
+color:grey;
+text-align: center;
+}
+
+form /* changed the alignment of the form*/
+{
+text-align: center;
+}
+
+input /* changed the color of the input! and background*/
+{
+
+color:rgb(43, 104, 226);
+background-color: black;
+}
+
+
+
+img /*I used this to center it by setting left and right margin to auto to make a block element, since i couldn't get align to work well */
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+body
+{
+    /* Changing background color*/
+    
+    background-image: radial-gradient(rgb(14, 119, 189),rgb(35, 35, 35));
+    background-repeat: no-repeat;
+}
+
+
+nav /*changed the background, width, font weight and style */
+{
+    width: 250px;
+    background-color: black;
+    font-weight: bolder;
+    font-style: italic;
+}
